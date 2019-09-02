@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pedro/CLionProjects/Programa2/PantallaPrincipal.cpp
+PantallaPrincipal.h
+/home/pedro/CLionProjects/Programa2/PantallaPrincipal.h
+SFML/Graphics.hpp
+-
+
+/home/pedro/CLionProjects/Programa2/PantallaPrincipal.h
+SFML/Graphics/RenderWindow.hpp
+-
+
