@@ -19,6 +19,7 @@ public:
     int get_y();
     int get_largo();
     int get_ancho();
+    int get_puntaje();
     void aumentarPuntaje();
     void mover(int v);
 };

@@ -3,6 +3,7 @@
 #include "PantallaPrincipal.h"
 #include "PantallaJuego.h"
 #include "PantallaFinal.h"
+#include "Juego.h"
 
 int main()
 {
@@ -23,14 +24,16 @@ int main()
         window.draw(shape);
         window.display();
     }*/
-    sf::RenderWindow window(sf::VideoMode(800, 600), "Atari");
+
+    Juego juego(10,10,600,800,new PantallaPrincipal(10,10,600,800), new PantallaJuego(10,10,600,800),new PantallaFinal(10,10,600,800));
+    juego.inicializar();
     //PantallaPrincipal p1(10,10,600,800,&window);
     //p1.dibujar();
-    //Pelota pelota((800/2)-2,(600/2)-2,10,1,1);
+    //
     //PantallaJuego p2(10,10,600,800,&window,&pelota);
     //p2.dibujar();
-    PantallaFinal p3(10,10,600,800,&window);
-    p3.dibujar();
+    //PantallaFinal p3;
+    //p3.dibujar();
     //PantallaJuego();
 
     return 0;

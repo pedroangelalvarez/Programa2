@@ -17,14 +17,16 @@ private:
     int posy;
     int alto;
     int ancho;
-    bool jugar;
-    sf::RenderWindow window;
-    PantallaPrincipal pantallinit;
-    PantallaJuego pantallaJuego;
-    PantallaFinal pantallFinal;
+    sf::RenderWindow* window;
+    PantallaPrincipal* pantallInit;
+    PantallaJuego* pantallaJuego;
+    PantallaFinal* pantallaFinal;
 public:
-
-
+    Juego(int dposx, int dposy, int dalto, int ancho, PantallaPrincipal *dpantallaInit, PantallaJuego *dpantallaJuego, PantallaFinal *dpantallaFinal):
+    pantallInit{dpantallaInit},pantallaJuego{dpantallaJuego},pantallaFinal{dpantallaFinal}{}
+    void ejecutar();
+    void reiniciar();
+    void inicializar();
 
 };
 

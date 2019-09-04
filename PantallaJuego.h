@@ -23,10 +23,11 @@ private:
 
 public:
 
-    PantallaJuego(int dposx, int dposy, int dalto, int dancho, sf::RenderWindow* dwindow,Pelota* dpelota):
-            posx{dposx},posy{dposy},alto{dalto},ancho{dancho},window{dwindow},pelota{dpelota}
-    {jugadores.push_back(new Jugador(10,50,50,10));
-    jugadores.push_back(new Jugador(dancho-10,dalto-50,50,10));}
+    PantallaJuego(int dposx, int dposy, int dalto, int dancho):
+            posx{dposx},posy{dposy},alto{dalto},ancho{dancho},window{new sf::RenderWindow (sf::VideoMode(800, 600), "Atari")}
+    { pelota = new Pelota((dancho/2)-2,(dalto/2)-2,10,1,1);
+        jugadores.push_back(new Jugador(10,50,50,10));
+    jugadores.push_back(new Jugador(dancho-20,dalto-50,50,10));}
     ~PantallaJuego()= default;
     int getPosX();
     int getPosY();

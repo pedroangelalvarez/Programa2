@@ -20,6 +20,10 @@ int Jugador::get_ancho() {
     return this->ancho;
 }
 
+int Jugador::get_puntaje() {
+    return  this->puntaje;
+}
+
 void Jugador::mover(int v) {
     if (v==0){
         this->y+=3;

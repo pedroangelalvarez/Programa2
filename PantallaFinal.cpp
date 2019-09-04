@@ -9,19 +9,19 @@
 #include "PantallaFinal.h"
 #include <thread>
 
+
 void PantallaFinal::dibujar() {
     sf::RectangleShape rectangle(sf::Vector2f(5, 5));
     rectangle.setFillColor(sf::Color(10, 50, 255));
     rectangle.setSize(sf::Vector2f(this->ancho-10, this->alto-10));
 
     sf::Font font;
-    if (!font.loadFromFile("/usr/share/fonts/droid/DroidSansMono.ttf"))
+    if (!font.loadFromFile("../DroidSansMono.ttf"))
         //find this file in the "pong" example in the SFML examples folder
     {
         std::printf("Error loading font\n");
     }
     sf::Text mensaje;
-    // set the string to display
     mensaje.setFont(font);
     mensaje.setPosition(this->posx+(this->ancho)/4,this->alto-50);
     mensaje.setString("PRESIONE ENTER PARA SALIR");
@@ -66,15 +66,14 @@ void PantallaFinal::eventos() {
 
 void PantallaFinal::actualizarMensaje() {
 
-    std::this_thread::sleep_for (std::chrono::milliseconds(10));
+    std::this_thread::sleep_for (std::chrono::seconds(5));
     sf::RectangleShape rectangle(sf::Vector2f(5, 5));
     rectangle.setFillColor(sf::Color(10, 50, 255));
     rectangle.setSize(sf::Vector2f(this->ancho-10, this->alto-10));
 
     sf::Font font;
 
-// Load it from a file
-    if (!font.loadFromFile("/usr/share/fonts/droid/DroidSansMono.ttf"))
+    if (!font.loadFromFile("../DroidSansMono.ttf"))
         //find this file in the "pong" example in the SFML examples folder
     {
         std::printf("Error loading font\n");

@@ -6,6 +6,7 @@
 #include <SFML/Graphics/RectangleShape.hpp>
 #include <thread>
 #include <SFML/Window/Event.hpp>
+#include <SFML/Graphics/Text.hpp>
 #include "PantallaJuego.h"
 
 int PantallaJuego::getPosX() {
@@ -40,6 +41,28 @@ void PantallaJuego::dibujar() {
     player2.setFillColor(sf::Color(0, 255,  255));
     player2.setPosition(jugador2->get_x(),jugador2->get_y());
 
+    sf::Font font;
+    if (!font.loadFromFile("../DroidSansMono.ttf"))
+        //find this file in the "pong" example in the SFML examples folder
+    {
+        std::printf("Error loading font\n");
+    }
+    sf::Text puntaje1;
+    puntaje1.setFont(font);
+    puntaje1.setPosition(20,5);
+    puntaje1.setString("0");
+    puntaje1.setCharacterSize(46);
+    puntaje1.setFillColor(sf::Color::White);
+    puntaje1.setStyle(sf::Text::Bold );
+
+    sf::Text puntaje2;
+    puntaje2.setFont(font);
+    puntaje2.setPosition(this->ancho-40,5);
+    puntaje2.setString("0");
+    puntaje2.setCharacterSize(46);
+    puntaje2.setFillColor(sf::Color::White);
+    puntaje2.setStyle(sf::Text::Bold );
+
     pelota->direccionarX(this->definirDireccionX());
     pelota->direccionarY(this->definirDireccionY());
     while (window->isOpen())
@@ -52,6 +75,7 @@ void PantallaJuego::dibujar() {
             this->pelota->direccionarX(definirDireccionX());
             this->pelota->direccionarY(definirDireccionY());
             jugador2->aumentarPuntaje();
+            puntaje2.setString(std::to_string(jugador2->get_puntaje()));
         }
         else if( this->pelota->get_x() >= this->ancho-2){
             this->pelota->moverX((this->ancho/2)-2);
@@ -59,6 +83,7 @@ void PantallaJuego::dibujar() {
             this->pelota->direccionarX(definirDireccionX());
             this->pelota->direccionarY(definirDireccionY());
             jugador1->aumentarPuntaje();
+            puntaje1.setString(std::to_string(jugador1->get_puntaje()));
         }
 
         this->colision();
@@ -86,9 +111,12 @@ void PantallaJuego::dibujar() {
                 }
                 player1.setPosition(jugador1->get_x(),jugador1->get_y());
                 player2.setPosition(jugador2->get_x(),jugador2->get_y());
+                if (event.key.code == sf::Keyboard::Escape) {
+                    this->window->close();
+                }
             }
             if (event.type == sf::Event::Closed)
-                window->close();
+                this->window->close();
 
         }
 
@@ -96,21 +124,19 @@ void PantallaJuego::dibujar() {
         window->draw(ballon);
         window->draw(player1);
         window->draw(player2);
+        window->draw(puntaje1);
+        window->draw(puntaje2);
         window->display();
     }
 }
 
-
-void PantallaJuego::actualizar_puntaje() {
-
-}
 
 void PantallaJuego::colision() {
     if (this->pelota->get_y()<1) {
         this->pelota->direccionarY(1);
 
     }
-    else if( this->pelota->get_y() >= this->alto-5){
+    else if( this->pelota->get_y() >= this->alto-10){
         this->pelota->direccionarY(0);
     }
 }

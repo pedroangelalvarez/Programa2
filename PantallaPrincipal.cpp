@@ -53,7 +53,7 @@ void PantallaPrincipal::dibujar() {
     sf::Font font;
 
 // Load it from a file
-    if (!font.loadFromFile("/usr/share/fonts/droid/DroidSansMono.ttf"))
+    if (!font.loadFromFile("../DroidSansMono.ttf"))
         //find this file in the "pong" example in the SFML examples folder
     {
         std::printf("Error loading font\n");
@@ -91,11 +91,11 @@ void PantallaPrincipal::dibujar() {
 
 void PantallaPrincipal::eventos() {
     sf::Event event;
-    while (window->pollEvent(event))
+    while (this->window->pollEvent(event))
     {
         if (event.type == sf::Event::EventType::KeyPressed){
             if (event.key.code == sf::Keyboard::Enter) {
-                this->window->close();
+                 this->window->close();
             }
         }
         if (event.type == sf::Event::Closed)

@@ -3,3 +3,17 @@
 //
 
 #include "Juego.h"
+
+void Juego::ejecutar() {
+
+}
+
+void Juego::reiniciar() {
+
+}
+
+void Juego::inicializar() {
+    this->pantallInit->dibujar();
+    this->pantallaJuego->dibujar();
+    this->pantallaFinal->dibujar();
+}

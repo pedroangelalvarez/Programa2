@@ -17,8 +17,8 @@ private:
     sf::RenderWindow* window;
 
 public:
-    PantallaFinal(int dposx, int dposy, int dalto, int dancho, sf::RenderWindow* dwindow):
-    posx{dposx},posy{dposy},alto{dalto},ancho{dancho},window{dwindow}{}
+    PantallaFinal(int dposx, int dposy, int dalto, int dancho):
+    posx{dposx},posy{dposy},alto{dalto},ancho{dancho},window{new sf::RenderWindow (sf::VideoMode(800, 600), "Atari")}{}
     void dibujar();
     void eventos();
     void actualizarMensaje();
