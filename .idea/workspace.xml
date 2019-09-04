@@ -12,69 +12,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c516e172-00f2-4507-9712-ac2ba4d21863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Programa2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Juego.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jugador.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jugador.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PantallaFinal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PantallaFinal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PantallaJuego.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PantallaJuego.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PantallaPrincipal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PantallaPrincipal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pelota.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pelota.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clean.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.2/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Juego.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Jugador.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaFinal.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaJuego.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Pelota.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Programa2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Programa2.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fff_forward.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Juego.h" beforeDir="false" afterPath="$PROJECT_DIR$/Juego.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jugador.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Jugador.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jugador.h" beforeDir="false" afterPath="$PROJECT_DIR$/Jugador.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallaFinal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PantallaFinal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallaFinal.h" beforeDir="false" afterPath="$PROJECT_DIR$/PantallaFinal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallaJuego.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PantallaJuego.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallaJuego.h" beforeDir="false" afterPath="$PROJECT_DIR$/PantallaJuego.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallaPrincipal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PantallaPrincipal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PantallaPrincipal.h" beforeDir="false" afterPath="$PROJECT_DIR$/PantallaPrincipal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelota.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pelota.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pelota.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pelota.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Jugador.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Jugador.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaFinal.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaFinal.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaJuego.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaJuego.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Pelota.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/Pelota.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programa2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programa2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programa2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +98,8 @@
       <workItem from="1567308936130" duration="3175000" />
       <workItem from="1567350535800" duration="1671000" />
       <workItem from="1567355608998" duration="13605000" />
+      <workItem from="1567483083690" duration="1699000" />
+      <workItem from="1567559086155" duration="8490000" />
     </task>
     <servers />
   </component>
@@ -149,7 +111,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

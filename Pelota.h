@@ -11,17 +11,14 @@ private:
     int x;
     int y;
     int radio;
-    char color;
-    int vx;
-    int vy;
     int direccionX;
     int direccionY;
 
 public:
-    Pelota(int px, int py, int pradio, char pcolor, int pvx, int pvy, int pdx, int pdy):
-    x{px},y{py},radio{pradio},color{pcolor},vx{pvx},vy{pvy},direccionX{pdx},direccionY{pdy}  {}
+    Pelota(int px, int py, int pradio, int pdx, int pdy):
+    x{px},y{py},radio{pradio},direccionX{pdx},direccionY{pdy}  {}
     void moverse();
-    void colision();
+    void rebotar();
     void direccionarX(int dx);
     void direccionarY(int dy);
     void moverX( int x);
@@ -29,7 +26,6 @@ public:
     int get_x();
     int get_y();
     int get_radio();
-    char get_color();
     int get_vx();
     int get_vy();
     int get_direccionX();

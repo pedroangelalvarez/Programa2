@@ -22,12 +22,16 @@ int Jugador::get_ancho() {
 
 void Jugador::mover(int v) {
     if (v==0){
-        this->y+=7;
+        this->y+=3;
     }
     else{
-        this->y-=7;
+        this->y-=3;
     }
 
+}
+
+void Jugador::aumentarPuntaje() {
+    this->puntaje++;
 }
 
 

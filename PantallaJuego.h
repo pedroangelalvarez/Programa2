@@ -25,13 +25,18 @@ public:
 
     PantallaJuego(int dposx, int dposy, int dalto, int dancho, sf::RenderWindow* dwindow,Pelota* dpelota):
             posx{dposx},posy{dposy},alto{dalto},ancho{dancho},window{dwindow},pelota{dpelota}
-    {jugadores.push_back(new Jugador(10,250,50,10));
-    jugadores.push_back(new Jugador(780,250,50,10));}
+    {jugadores.push_back(new Jugador(10,50,50,10));
+    jugadores.push_back(new Jugador(dancho-10,dalto-50,50,10));}
     ~PantallaJuego()= default;
     int getPosX();
     int getPosY();
     int getAlto();
     int getAncho();
+    void dibujar();
+    void actualizar_puntaje();
+    void colision();
+    int definirDireccionX();
+    int definirDireccionY();
 };
 
 

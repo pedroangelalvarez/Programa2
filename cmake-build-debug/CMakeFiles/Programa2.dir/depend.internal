@@ -4,9 +4,11 @@
 CMakeFiles/Programa2.dir/Juego.cpp.o
  /home/pedro/CLionProjects/Programa2/Juego.cpp
  /home/pedro/CLionProjects/Programa2/Juego.h
+ /home/pedro/CLionProjects/Programa2/Jugador.h
  /home/pedro/CLionProjects/Programa2/PantallaFinal.h
  /home/pedro/CLionProjects/Programa2/PantallaJuego.h
  /home/pedro/CLionProjects/Programa2/PantallaPrincipal.h
+ /home/pedro/CLionProjects/Programa2/Pelota.h
 CMakeFiles/Programa2.dir/Jugador.cpp.o
  /home/pedro/CLionProjects/Programa2/Jugador.cpp
  /home/pedro/CLionProjects/Programa2/Jugador.h
@@ -14,8 +16,10 @@ CMakeFiles/Programa2.dir/PantallaFinal.cpp.o
  /home/pedro/CLionProjects/Programa2/PantallaFinal.cpp
  /home/pedro/CLionProjects/Programa2/PantallaFinal.h
 CMakeFiles/Programa2.dir/PantallaJuego.cpp.o
+ /home/pedro/CLionProjects/Programa2/Jugador.h
  /home/pedro/CLionProjects/Programa2/PantallaJuego.cpp
  /home/pedro/CLionProjects/Programa2/PantallaJuego.h
+ /home/pedro/CLionProjects/Programa2/Pelota.h
 CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o
  /home/pedro/CLionProjects/Programa2/PantallaPrincipal.cpp
  /home/pedro/CLionProjects/Programa2/PantallaPrincipal.h
@@ -23,5 +27,9 @@ CMakeFiles/Programa2.dir/Pelota.cpp.o
  /home/pedro/CLionProjects/Programa2/Pelota.cpp
  /home/pedro/CLionProjects/Programa2/Pelota.h
 CMakeFiles/Programa2.dir/main.cpp.o
+ /home/pedro/CLionProjects/Programa2/Jugador.h
+ /home/pedro/CLionProjects/Programa2/PantallaFinal.h
+ /home/pedro/CLionProjects/Programa2/PantallaJuego.h
  /home/pedro/CLionProjects/Programa2/PantallaPrincipal.h
+ /home/pedro/CLionProjects/Programa2/Pelota.h
  /home/pedro/CLionProjects/Programa2/main.cpp

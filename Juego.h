@@ -22,6 +22,7 @@ private:
     PantallaPrincipal pantallinit;
     PantallaJuego pantallaJuego;
     PantallaFinal pantallFinal;
+public:
 
 
 

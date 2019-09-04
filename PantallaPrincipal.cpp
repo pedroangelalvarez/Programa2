@@ -95,11 +95,11 @@ void PantallaPrincipal::eventos() {
     {
         if (event.type == sf::Event::EventType::KeyPressed){
             if (event.key.code == sf::Keyboard::Enter) {
-                this->window.close();
+                this->window->close();
             }
         }
         if (event.type == sf::Event::Closed)
-            this->window.close();
+            this->window->close();
     }
 }
 

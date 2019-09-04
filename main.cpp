@@ -1,6 +1,8 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "PantallaPrincipal.h"
+#include "PantallaJuego.h"
+#include "PantallaFinal.h"
 
 int main()
 {
@@ -21,8 +23,15 @@ int main()
         window.draw(shape);
         window.display();
     }*/
-    PantallaPrincipal p1(10,10,600,800);
-    PantallaJuego();
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Atari");
+    //PantallaPrincipal p1(10,10,600,800,&window);
+    //p1.dibujar();
+    //Pelota pelota((800/2)-2,(600/2)-2,10,1,1);
+    //PantallaJuego p2(10,10,600,800,&window,&pelota);
+    //p2.dibujar();
+    PantallaFinal p3(10,10,600,800,&window);
+    p3.dibujar();
+    //PantallaJuego();
 
     return 0;
 }

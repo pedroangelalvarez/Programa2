@@ -21,7 +21,7 @@ public:
     posx{dposx},posy{dposy},alto{dalto},ancho{dancho},window{dwindow}{}
     void dibujar();
     void eventos();
-    void ActualizarMensaje();
+    void actualizarMensaje();
 };
 
 

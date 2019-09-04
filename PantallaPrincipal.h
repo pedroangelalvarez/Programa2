@@ -18,9 +18,8 @@ private:
 
 public:
     PantallaPrincipal(int dposx, int dposy, int dalto, int dancho,sf::RenderWindow* dwindow):
-    posx{dposx},posy{dposy},alto{dalto},ancho{dancho},jugar{false}, window{dwindow}
+    posx{dposx},posy{dposy},alto{dalto},ancho{dancho}, window{dwindow}
     {
-        dibujar();
     }
 
     ~PantallaPrincipal()= default;

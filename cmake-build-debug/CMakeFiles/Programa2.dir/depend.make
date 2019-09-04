@@ -3,9 +3,11 @@
 
 CMakeFiles/Programa2.dir/Juego.cpp.o: ../Juego.cpp
 CMakeFiles/Programa2.dir/Juego.cpp.o: ../Juego.h
+CMakeFiles/Programa2.dir/Juego.cpp.o: ../Jugador.h
 CMakeFiles/Programa2.dir/Juego.cpp.o: ../PantallaFinal.h
 CMakeFiles/Programa2.dir/Juego.cpp.o: ../PantallaJuego.h
 CMakeFiles/Programa2.dir/Juego.cpp.o: ../PantallaPrincipal.h
+CMakeFiles/Programa2.dir/Juego.cpp.o: ../Pelota.h
 
 CMakeFiles/Programa2.dir/Jugador.cpp.o: ../Jugador.cpp
 CMakeFiles/Programa2.dir/Jugador.cpp.o: ../Jugador.h
@@ -13,8 +15,10 @@ CMakeFiles/Programa2.dir/Jugador.cpp.o: ../Jugador.h
 CMakeFiles/Programa2.dir/PantallaFinal.cpp.o: ../PantallaFinal.cpp
 CMakeFiles/Programa2.dir/PantallaFinal.cpp.o: ../PantallaFinal.h
 
+CMakeFiles/Programa2.dir/PantallaJuego.cpp.o: ../Jugador.h
 CMakeFiles/Programa2.dir/PantallaJuego.cpp.o: ../PantallaJuego.cpp
 CMakeFiles/Programa2.dir/PantallaJuego.cpp.o: ../PantallaJuego.h
+CMakeFiles/Programa2.dir/PantallaJuego.cpp.o: ../Pelota.h
 
 CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o: ../PantallaPrincipal.cpp
 CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o: ../PantallaPrincipal.h
@@ -22,6 +26,10 @@ CMakeFiles/Programa2.dir/PantallaPrincipal.cpp.o: ../PantallaPrincipal.h
 CMakeFiles/Programa2.dir/Pelota.cpp.o: ../Pelota.cpp
 CMakeFiles/Programa2.dir/Pelota.cpp.o: ../Pelota.h
 
+CMakeFiles/Programa2.dir/main.cpp.o: ../Jugador.h
+CMakeFiles/Programa2.dir/main.cpp.o: ../PantallaFinal.h
+CMakeFiles/Programa2.dir/main.cpp.o: ../PantallaJuego.h
 CMakeFiles/Programa2.dir/main.cpp.o: ../PantallaPrincipal.h
+CMakeFiles/Programa2.dir/main.cpp.o: ../Pelota.h
 CMakeFiles/Programa2.dir/main.cpp.o: ../main.cpp
 

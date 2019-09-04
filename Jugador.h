@@ -12,12 +12,14 @@ private:
     int y;
     int largo;
     int ancho;
+    int puntaje;
 public:
-    Jugador(int px,int py,int plargo, int pancho):x{px},y{py},largo{plargo},ancho{pancho}{}
+    Jugador(int px,int py,int plargo, int pancho):x{px},y{py},largo{plargo},ancho{pancho},puntaje{0}{}
     int get_x();
     int get_y();
     int get_largo();
     int get_ancho();
+    void aumentarPuntaje();
     void mover(int v);
 };
 
